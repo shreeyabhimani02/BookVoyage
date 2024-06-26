@@ -1,0 +1,181 @@
+<html>
+<head>
+  <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+  <title>BookVoyage</title>
+  <link href="styles.css" rel="stylesheet" />
+  <style>
+
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: whitesmoke;
+  }
+  
+  header {
+    background: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  section {
+    padding: 20px;
+    margin: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #home {
+    text-align: center;
+  }
+  
+  .book-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .book-item {
+    background: #f9f9f9;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  form button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background: #28a745;
+    color: white;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background: #218838;
+  }
+  </style>
+</head>
+<body>
+  
+  <header>
+    <h1>Book Voyage</h1>
+    <nav>
+      <ul>
+        <li>
+          <a href="#home">Home</a>
+        </li>
+        <li>
+          <a href="#catalog">Catalog</a>
+        </li>
+        <li>
+          <a href="./contact.html">Contact</a>
+        </li>
+        <li>
+          <a href="./cart.html">Cart</a>
+        </li>
+       </ul>
+    </nav>
+  </header>
+
+  <section id="home">
+    <h2>Welcome to the Library</h2>
+    <p>Explore our collection of books and resources.</p>
+  </section>
+
+  <section id="catalog">
+    <h2>Book Catalog</h2>
+<h3>Best Sellers</h3>
+    <div class="book-list">
+      <div class="book-item">
+        <img src="mov.jpg" />
+        <h3>Merchant of Venice</h3>
+        <p>Author:William Shakespeare</p>
+        <p style="color:royalblue;">Rs109</p>  
+        <a href="./mov.html" style="color:tomatos;">View>></a>
+      </div>
+      <div class="book-item">
+        <img src="ikigai.jpg" />
+        <h3>Ikigai:The Japanese Secret to a Long And Happy Life</h3>
+        <p>Author:Hector Garcia</p>
+        <p style="color:royalblue;">Rs395</p> 
+        <a href="./ikigai.html" style="color:Tomato;">View>></a>
+      </div>
+      <div class="book-item">
+        <img src="TD.jpg" />
+        <h3>Train Dreams</h3>
+        <p>Author:Denis Johnson</p>
+        <p style="color:royalblue;">Rs780</p>
+        <a href="./TD.html" style="color:Tomato;">View>></a>
+      </div>
+      <div class="book-item">
+        <img src="BG.jpg" />
+        <h3>Bhagavat Geeta</h3>
+        <p>Author:Veda Vyas</p>
+        <p style="color:royalblue;">Rs658</p> 
+        <a href="./bg.html" style="color:Tomato;">View>></a>
+      </div>
+</div>
+<h3>New Arrivals</h3>
+   <div class="book-list">
+      <div class="book-item">
+        <img src="gst.jpg" />
+        <h3>The God of Small Things</h3>
+        <p>Author:Arundhati Roy</p>
+        <p style="color:royalblue;">Rs499</p> 
+        <a href="./gst.html" style="color:Tomato;">View>></a>
+      </div>
+      <div class="book-item">
+        <img src="BB.jpg" />
+        <h3>Birds And Beasts:Enchanting Tales Of India</h3>
+        <p>Author:William Jay Smith</p>
+        <p style="color:royalblue;">Rs599</p> 
+        <a href="./bb.html" style="color:Tomato;">View>></a>
+      </div>
+      <div class="book-item">
+        <img src="AW.jpg" />
+        <h3>Alice's Adventure in Wonderland</h3>
+        <p>Author:Lewis Carroll</p>
+        <p style="color:royalblue;">Rs799</p> 
+        <a href="./aaw.html" style="color:Tomato;">View>></a>
+      </div>
+      <div class="book-item">
+        <img src="BU.jpg" />
+        <h3>The Blue Umbrella</h3>
+        <p>Author: Marijn Haverbeke</p>
+        <p style="color:royalblue;">Rs699</p> 
+        <a href="./bu.html" style="color:Tomato;">View>></a>
+      </div>
+    </div>
+  </section>
+
+  
+</body>
+</html>
